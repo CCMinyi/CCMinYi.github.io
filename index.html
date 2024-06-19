@@ -1,511 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4STMD950H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-B4STMD950H');
-</script>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Min-Yi Chen's Personal Website</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Personal
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min-Yi Chen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+        header {
+            background: #fff;
+            color: #000;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background: #fff;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a {
+            color: #000;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            color: #000;
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+        .content-section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        img.profile-pic {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
 </head>
-
 <body>
+    <header>
+        <h1>Min-Yi Chen</h1>
+        <img src="img/me.jpg" alt="Your Name" class="profile-pic">
+        <p>Statistics PhD student | Iowa State University</p>
+    </header>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
+
     <div class="container">
+        <section id="about" class="content-section">
+            <h2>About</h2>
+            <p>I am Min-Yi Chen, a first year PhD student in Department of Statistics at Iowa State University. I am interested in dealing with paradox. My research interest is Machine Learning Theory.
+                 <br> <br>Previously, I studied Statistics at National Cheng-Chi University and received my Bachelor degree in 2023. I was Dr.<a href="https://staff.stat.sinica.edu.tw/tlchen/">Ting-Li Chen</a>'s' part-time research assistant in Institue of Statistical Science, Academia Sinica from 2022 to 2023. 
+                 <br> <br>I worked on several research projects when I was an undergraduate student. I worked on manifold learning project mentored by Dr.<a>Han-Ming Wu</a> and the project is supported by Ministry of Science and Technology, Taiwan. I also worked on exponential random graph  models(ERGM) project mentored by 
+                 Dr.<a href="https://bo-ning.github.io">Bo Ning</a> and Dr.<a href="https://sites.google.com/view/hsuanweilee/home">Hsuan-Wei Lee</a> in 2023.  </p>
+        </section>
 
-      <h1 ><a href="index.html">Min-Yi Chen</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2 >I'm a <span>Statistics Ph.D. student</span> at Iowa State University</h2>
+        <section id="research" class="content-section">
+            <h2>Research</h2>
+            <p>Machine Learning Theory</p>
+        </section>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li ><a class="nav-link active" href="#header">Home</a></li>
-          <li ><a class="nav-link" href="#about">About</a></li>
-          <li ><a class="nav-link" href="#resume">Resume</a></li>
-          <li ><a class="nav-link" href="#researchandproject">Research & Project</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="social-links">
-        <a href="https://twitter.com/ccminyi" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="https://www.facebook.com/CCminyi/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/_min.yi_/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/min-yi-chen-62b76a217/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Learn more about me</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3> Ph.D Student in Statistics</h3>
-          <p class="fst-italic">
-            I'm Min-Yi Chen, a first year Ph.D. student in Department of Statistics at Iowa State University. 
-            My research projects includes network analysis, complex system, and Nonlinear dimensionality reduction. Recently, I am interested in dealing with paradox and developing statistics theory relied on dependent data.
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>2 Jan</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ccminyi@iastate.edu</span></li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Taipei, Taiwan</span></li>
-              </ul>
-            </div>
-          </div>
-          <p>
-            I received my bachelor degree in Statistics at National Chengchi University in 2023. Previosuly, I was a part-time research assistant in Institute of Statistical Science, Academia Sinica from 2022 to 2023.
-          </p>
-        </div>
-      </div>
-
-    </div><!-- End About Me -->
-
-
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">R <i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Shiny <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">SQL <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">Python <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">LATEX<i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          
-
-        </div>
-
-      </div>
-
-    </div><!-- End Skills -->
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <h3>Tennis</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <h3>Poker</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <h3>Calligraphy</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <h3>Swimming</h3>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- End Interests -->
-
-    <!-- ======= Musics ======= -->
-    <div class="testimonials container">
-
-      <div class="section-title">
-        <h2>Favorite Music</h2>
-      </div>
-
-      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                Polonaise in A-Flat Major, Op.53
-              </p>
-              <h3>Frédéric Chopin</h3>
-              <h4>Dmitry Shishkin</h4>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                Piano Quartet in E flat, Op. 47 - 3. Andante cantabile
-              </p>
-              <h3>Robert Schumann</h3>
-              <h4>Trio Wanderer, Christophe Gaugué</h4>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                Liebestraum No. 3 in A-Flat Major, S.541
-              </p>
-              <h3>Franz Liszt</h3>
-              <h4>YUNDI</h4>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                Pit a Pat
-              </p>
-              <h3>Sungha Jung</h3>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                Tracing That Dream
-              </p>
-              <h3>YOASOBI</h3>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                Yes I am
-              </p>
-              <h3>ONE OK ROCK</h3>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                Cinderella Boy
-              </p>
-              <h3>Saucy Dog</h3>
-            </div>
-          </div><!-- End testimonial item -->
-
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
-      <div class="owl-carousel testimonials-carousel">
-
-      </div>
-
-    </div><!-- End Music  -->
-
-  </section><!-- End About Section -->
-
-  <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <h3 class="resume-title">Publication</h3>
-          <div class="resume-item pb-0">
-            <h4>Complex system</h4>
+        <section id="publications" class="content-section">
+            <h2>Publications</h2>
             <ul>
-              <li>Ting-Li Chen, Elizabeth Chou, Min-Yi Chen and Fushing Hsieh (2022). 
-                Unraveling implicit human
-                behavioral effects on dynamic characteristics of Covid-19 daily infection rates in Taiwan.
-                <br/>
-                (PLoS One under review)</li>
+                Unraveling implicit human behavioral effects on dynamic characteristics of Covid-19 daily infection rates in Taiwan
+                <br>
+                Ting-Li Chen, Elizabeth P. Chou, <b>Min-Yi Chen</b>, Hsieh Fushing
+                <br>
+                Plos one 19 (2)
+                <br>
+                <a href="https://arxiv.org/abs/2211.10926">paper</a> <a href="https://ccminyi.shinyapps.io/Covid_daily_infection_rate_in_TW/">demo</a> <a href="https://github.com/CCMinyi/covid19">code</a>
+                
             </ul>
-          </div>
-          <div class="resume-item pb-0">
-            <h4>nonlinear dimensionality reduction</h4>
+        </section>
+
+        <section id="notes" class="content-section">
+            <h2>Notes</h2>
             <ul>
-              <li>Min-Yi Chen, Han-Ming Wu.
-                On the estimation of the weight parameters of the multi-SNE using the gradient descent.
-                <br/>
-                (on-going)</li>
+                <p>COMS 633 : Advanced Topics in Computational Randomness<br>
+                    Instructor : Dr.<a href="https://jacklutz.com">Jack Lutz</a>
+                    <br>Spring 2024 
+                    <br><a>note</a></p>
             </ul>
-          </div>
+            
+            
+        </section>
 
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
-            <h4>Doctor of Philosophy in Statistics</h4>
-            <h5>2023 - 2028</h5>
-            <p><em>Iowa State University, Ames, IA</em></p>
-          </div>
-          <div class="resume-item">
-            <h4>Bachelor of Science in Statistics</h4>
-            <h5>2020 - 2023</h5>
-            <p><em>National Chengchi University, Taipei, Taiwan</em></p>
-            <p>Overall GPA : 4.23/4.3</p>
-            <p>Ranking : 5/69</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h3 class="resume-title">Research Experience</h3>
-          <div class="resume-item">
-            <h4>Part-time Research Assistant</h4>
-            <h5>2022 - 2023</h5>
-            <p><em>Institute of Statistical Science, Academia Sinica </em></p>
-            <p>Employer Dr. Ting-Li Chen</p>
-            <p>
+        <section id="teaching" class="content-section">
+            <h2>Teaching</h2>
             <ul>
-              <li>Smoothing and visualizing data with R and RShiny for research in human behaviour behind Covid-
-                19.</li>
-              <li>Study MCMC related papers under the guidance of Dr. Ting-Li Chen</li>
+                <p>DS 202 : Data Acquisition and Exploratory Data Analysis
+                    <br>
+                    Teaching Assistant
+                    <br>
+                    Fall 2023, Spring 2024
+                    <br>
+                    <a href="https://ds202-at-isu.github.io">course</a>
+                </p>
             </ul>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Undergraduate Researcher</h4>
-            <h5>2022-2023</h5>
-            <p><em>Support by Ministry of Science and Technology Research Projects, Taiwan</em></p>
-            <p>Advisor : Han-Ming Wu</p>
-            <p>
-            <ul>
-              <li>Designed an objective function for parameters estimation and prove the method converges at the
-                rate of O(1/k)</li>
-              <li>Conducted experiments on synthetic and real data sets to show the effectiveness and robustness
-                of my method</li>
-            </ul>
-            </p>
-          </div>
-        </div>
-      </div>
+        </section>
 
-    </div>
-  </section><!-- End Resume Section -->
-
-  
-
-<!-- ======= Research Section ======= -->
-<section id="researchandproject" class="portfolio">
-  <div class="container">
-
-    <div class="section-title">
-      <h2>Research & Project</h2>
-      <p>My Research and Project</p>
+        <section id="contact" class="content-section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ccminyi@iastate.edu">ccminyi@iastate.edu</a></p>
+            <p>X: <a href="https://x.com/ccminyi">https://x.com/ccminyi</a></p>
+        </section>
     </div>
 
-    <div class="row">
-      <div class="col-lg-12 d-flex justify-content-center">
-        <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-Research">Research</li>
-          <li data-filter=".filter-Project">Project</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row portfolio-container">
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-Project">
-        <div class="portfolio-wrap">
-          <img src="assets/img/project/ERGM/undirect_network.jpg" class="img-fluid" width="100%" alt="">
-          <div class="portfolio-info">
-            <p>Parameter estimation in Bayesian Exponential-Family
-              Models of Random Graphs</h4>
-            <div class="portfolio-links">
-              <a href="assets/img/project/ERGM/undirect_network.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-              <a href="project-details-ergm.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-Project">
-        <div class="portfolio-wrap">
-          <img src="assets/img/project/manifold/manifold.png" class="img-fluid" width="100%" alt="">
-          <div class="portfolio-info">
-            <p>Is Manifold Learning Reversible ?</h4>
-            <div class="portfolio-links">
-              <a href="assets/img/project/manifold/manifold.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-              <a href="project-details-reversible_manifold.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-Research">
-        <div class="portfolio-wrap">
-          <img src="assets/img/research/covid/covid_research.png" class="img-fluid" width="100%" alt="">
-          <div class="portfolio-info">
-            <p>Unraveling implicit human behavioral effects on dynamic characteristics of Covid-19 daily infection rates in Taiwan</h4>
-            <div class="portfolio-links">
-              <a href="assets/img/research/covid/covid_research.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-              <a href="research-details-covid.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-Research">
-        <div class="portfolio-wrap">
-          <img src="assets/img/research/manifold/manifold_paper.png" class="img-fluid" width="100%" alt="">
-          <div class="portfolio-info">
-            <p>ON THE ESTIMATION OF THE WEIGHT PARAMETERS OF THE MULTI-SNE USING THE GRADIENT DESCENT</h4>
-            <div class="portfolio-links">
-              <a href="assets/img/research/manifold/manifold_paper.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-              <a href="research-details-manifold.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-Project">
-        <div class="portfolio-wrap">
-          <img src="assets/img/project/LOL/radar.JPG" class="img-fluid" width="100%" alt="">
-          <div class="portfolio-info">
-            <p>LEAGUE OF LEGENDS - ANALYSIS AND PREDICTION</h4>
-            <div class="portfolio-links">
-              <a href="assets/img/project/LOL/radar.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-              <a href="project-details-ds-lol.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section><!-- End Research Section -->
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-  
-
-  <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-  </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    <footer>
+        <p> Last Updated June 19th 2024</p>
+    </footer>
 </body>
-
 </html>
